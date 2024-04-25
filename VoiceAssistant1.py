@@ -169,7 +169,7 @@ while True:
     
         # Generate a response using OpenAI
         prompt = f"Q: {user_input}\nA:"
-        response = generate_text(prompt)
+        response = generate_text(user_input)
         #response = user_input
         print(f"AI says: {response}")
     
